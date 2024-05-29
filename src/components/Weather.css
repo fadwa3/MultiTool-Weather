@@ -1,0 +1,51 @@
+/* Weather.css */
+
+.weather-container {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.weather-inputs {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center inputs horizontally */
+}
+
+.weather-inputs input {
+  margin: 0px;
+  padding: 10px;
+}
+
+.weather-inputs button {
+  padding: 10px 20px;
+  background: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: white;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .weather-inputs {
+    flex-direction: column;
+    align-items: center; /* Center inputs vertically */
+  }
+
+  .menu {
+    display: none; /* Hide the menu by default */
+  }
+
+  .weather-inputs input {
+    margin: 10px;
+  }
+}
